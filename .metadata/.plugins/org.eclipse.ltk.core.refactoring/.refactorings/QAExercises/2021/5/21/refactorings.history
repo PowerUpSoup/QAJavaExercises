@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Results.java&apos; to &apos;QATaskProject/src&apos;&#x0D;&#x0A;- Original project: &apos;QAExercises&apos;&#x0D;&#x0A;- Destination element: &apos;QATaskProject/src&apos;&#x0D;&#x0A;- Original element: &apos;com.qa.starterworld.Results.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=QATaskProject/src" element1="/src&lt;com.qa.starterworld{Results.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1621272374717" units="1" version="1.0"/>
+</session>

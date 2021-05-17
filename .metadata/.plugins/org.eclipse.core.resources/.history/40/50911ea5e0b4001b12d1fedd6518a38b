@@ -1,0 +1,17 @@
+package com.qa.starterworld;
+
+public class Calculator {
+	
+	static int num1 = 3;
+	static int num2 = 1;
+	static int product;
+
+	public static void main(String[] args) {
+		calculate(num1, num2);
+		};
+	
+	public static void calculate(int num1, int num2) {
+		product = num1 + num2;	
+		System.out.println(product);
+		};
+}
