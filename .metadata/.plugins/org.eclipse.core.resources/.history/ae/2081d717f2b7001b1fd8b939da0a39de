@@ -1,0 +1,14 @@
+package com.qa.starterworld;
+
+public class manipulatingStringsOne {
+
+	public static String stringOne = "Today it is sunny, ";
+	public static String stringTwo = "yesterday it was raining.";
+	
+	public static void main(String[] args) {
+		System.out.println(stringOne.toUpperCase()+" "+stringTwo.toUpperCase());
+
+	}
+
+	
+}
