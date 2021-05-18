@@ -4,22 +4,21 @@ public class manipulatingStringsTwo {
 
 	public static String str = "There once was a lady named Marge who had a job on a barge.";
 	public static int count;
-	public static String message = "a lady named Marge";
 	
 	public static void main(String[] args) {
-		wordCount(str);
 		//printVertically(str);
-		//printReversedVertically(str);
+		printReversedVertically(str);
 	}
 	
-	public static void wordCount(String str) {
-		
-		for (int i = 0; i < str.length(); i++) {
-			count += str.substring(i, i+1).equals("\s")  ? 1 : 0;
-		}
-		count += count > 0 ? 1 : 0;
-		System.out.println(count);
-	}
+//	public static void wordCount(String str) {
+//		
+//		for (int i = 0; i < str.length(); i++) {
+//			if (str.substring(i, (i+1)) == " ") { 
+//				count = count + 1;	
+//			}
+//		}
+//		System.out.println(count);
+//	}
 	
 	public static void printVertically(String str) {
 		for (int i = 0; i < str.length(); i++) {
@@ -33,7 +32,4 @@ public class manipulatingStringsTwo {
 		}
 	}
 	
-	public static void findMessage(String str, String message) {
-		
-	}
 }
