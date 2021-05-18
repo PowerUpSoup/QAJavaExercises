@@ -1,0 +1,35 @@
+package com.qa.starterworld;
+
+public class manipulatingStringsTwo {
+
+	public static String str = "There once was a lady named Marge who had a job on a barge.";
+	public static int count;
+	
+	public static void main(String[] args) {
+		//printVertically(str);
+		printReversedVertically(str);
+	}
+	
+//	public static void wordCount(String str) {
+//		
+//		for (int i = 0; i < str.length(); i++) {
+//			if (str.substring(i, (i+1)) == " ") { 
+//				count = count + 1;	
+//			}
+//		}
+//		System.out.println(count);
+//	}
+	
+	public static void printVertically(String str) {
+		for (int i = 0; i < str.length(); i++) {
+			System.out.println(str.substring(i, (i+1)));
+		}
+	}
+		
+	public static void printReversedVertically(String str) {
+		for (int i = str.length() - 1; i >= 0 ; i--) {
+			System.out.println(str.substring(i, (i+1)));
+		}
+	}
+	
+}
