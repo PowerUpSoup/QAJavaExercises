@@ -5,10 +5,10 @@ public class splitAndAdd {
 	public static int number = 88923;
 	public static int total = 0;
 	public static void main(String[] args) {
-		splitAdd(number);
+		splitAndAdd(number);
 	}
 
-	public static void splitAdd(int a) {
+	public static void splitAndAdd(int a) {
 		while (a > 0) {
 			int add = a % 10;
 			total = total + add;

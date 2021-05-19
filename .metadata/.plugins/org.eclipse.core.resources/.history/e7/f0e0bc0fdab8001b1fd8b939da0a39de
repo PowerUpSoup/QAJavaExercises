@@ -7,7 +7,7 @@ public class manipulatingStringsTwo {
 	public static String message = "a lady named Marge";
 	
 	public static void main(String[] args) {
-		//wordCount(str);
+		wordCount(str);
 		//printVertically(str);
 		//printReversedVertically(str);
 	}
@@ -33,7 +33,7 @@ public class manipulatingStringsTwo {
 		}
 	}
 	
-	public static void findMessage(String str) {
+	public static void findMessage(String str, String message) {
 		
 	}
 }
