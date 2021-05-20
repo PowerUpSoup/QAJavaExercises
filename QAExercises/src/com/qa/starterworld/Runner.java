@@ -1,12 +1,15 @@
 package com.qa.starterworld;
 
+import com.qa.controlflow.javabeginner.oop.inheritance.persons.Employee;
+
 public class Runner {
 
 	public static void main(String[] args) {
-		Person a = new Person("Sean", 32, "Male");
-		Book b = new Book("Gulliver's Travails", "Masked Author");
+		Employee a = new Employee();
+		a.setName("Jerry");
 		
-		System.out.println(a.name + " is " + a.age + " years old.");
-		a.read(b);
+		System.out.println(a.getName());
 	}
+	
+	
 }

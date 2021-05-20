@@ -1,33 +1,23 @@
 package com.qa.starterworld;
 
 public class Person {
-	
-	public String name; //
-	public int age; //
-	public String gender; //
-	public boolean isBreathing;
-	public int walkSpeed = 30; // in feet
 
-	// Constructor
-	public Person(String name, int age, String gender) {
+	private String name;
+
+	public Person() {
+		this("Unknown");
+	}
+
+	public Person(String name) {
 		this.name = name;
-		this.age = age;
-		this.gender = gender;
 	}
-	
-	public void read(Book item) {
-		System.out.println(this.name + " is reading the book titled: " + item.title);
+
+	public String getName() {
+		return name;
 	}
-	
-	public boolean isStillBreathing() {
-		return isBreathing;
+
+	public void setName(String name) {
+		this.name = name;
 	}
-	
-	public String speak(String msg) {
-		return this.name + " says: " + msg;
-	}
-	
-	public int walk() {
-		return walkSpeed;
-	}
+
 }

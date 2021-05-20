@@ -1,0 +1,5 @@
+package com.qa.controlflow.javabegginner.oop.inheritance;
+
+public class Person {
+
+}
